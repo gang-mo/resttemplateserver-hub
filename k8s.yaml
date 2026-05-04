@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: gangmo/resttemplateserver-hub:d2f50799e9e5edefb8a0119e53039a317c48865b
+          image: gangmo/resttemplateserver-hub:900ce00049a8c09ce9c5cea8518942db55ad239e
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
